@@ -4,7 +4,7 @@ end
 function sub(num1, num2)
     return num1 - num2
 end
-function pro(num1, num2)
+function mul(num1, num2)
     return num1 * num2
 end
 function div(num1, num2)
@@ -41,7 +41,7 @@ while play do
     if player == '1' then
         print("\n1.add ")
         print("2.sub ")
-        print("3.pro ")
+        print("3.mul ")
         print("4.power ")
         print("5.div ")
         print("**Press E for exit at any time!!")
@@ -219,7 +219,7 @@ while play do
                     local num1 = math.random(2, 100)
                     local num2 = math.random(2, 100)
                     print(num1.." * "..num2.." = " )
-                    local result = pro(num1, num2)
+                    local result = mul(num1, num2)
                     local choice = io.read()
                     
                     if tonumber(choice) ==  result then
