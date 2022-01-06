@@ -253,7 +253,7 @@ while play do
                                 local num1 = math.random(101, 1000)
                                 local num2 = math.random(101, 1000)
                                 print(num1.." * "..num2.." = " )
-                                local result = pro(num1, num2)
+                                local result = mul(num1, num2)
                                 local choice = io.read()
                                 
                                 
